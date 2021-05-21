@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "parameterized-lambda"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-17612catkr7l3"
+s3_prefix = "parameterized-lambda"
+region = "ap-southeast-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
